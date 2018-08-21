@@ -155,8 +155,7 @@ td,
 td img {
   vertical-align: top;
 }
-pre,
-pre code {
+pre {
   background-color: #f5f7fa;
   color: #42464c;
 }
