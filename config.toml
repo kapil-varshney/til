@@ -3,5 +3,8 @@ languageCode = "en-us"
 title = "Zeeshan Qureshi"
 theme = "kiss"
 
+[params.info]
+  homeTitle = "Zeeshan Qureshi - Things I've Learned"
+
 [permalinks]
   post = "/:year/:month/:title/"
