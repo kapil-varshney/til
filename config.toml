@@ -4,6 +4,7 @@ title = "Zeeshan Qureshi"
 theme = "kiss"
 pygmentsStyle = "monokai"
 pygmentsCodefences = true
+enableRobotsTXT = true
 
 [params.info]
   homeTitle = "Zeeshan Qureshi - Things I've Learned"
