@@ -2,6 +2,8 @@ baseURL = "https://til.zqureshi.in"
 languageCode = "en-us"
 title = "Zeeshan Qureshi"
 theme = "kiss"
+pygmentsStyle = "native"
+pygmentsCodefences = true
 
 [params.info]
   homeTitle = "Zeeshan Qureshi - Things I've Learned"
