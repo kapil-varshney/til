@@ -5,6 +5,7 @@ theme = "kiss"
 pygmentsStyle = "monokai"
 pygmentsCodefences = true
 enableRobotsTXT = true
+googleAnalytics = "UA-38494001-1"
 
 [params.info]
   homeTitle = "Zeeshan Qureshi - Things I've Learned"
