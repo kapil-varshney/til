@@ -15,3 +15,6 @@ googleAnalytics = "UA-38494001-1"
   github = "zqureshi"
   linkedin = "zeeshanq"
   profile = "https://zqureshi.in"
+
+[params.sections_right]
+  "/posts/" = "Archive"
