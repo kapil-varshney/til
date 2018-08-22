@@ -8,6 +8,6 @@ Trying to jot down anything new that I encounter.
 
 ## Usage
 
-`make new` to start a post
+`make my-awesome-post.md` to start a post
 
 `make server` to run hugo locally
