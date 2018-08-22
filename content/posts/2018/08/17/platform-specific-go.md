@@ -45,6 +45,6 @@ func cbytesFromStruct(info *_Ctype_struct_msqid_ds) uint64 {
 }
 ```
 
-Now `go build` will only compile the specific version of `cbytesFromStruct` based on the target platform. One thing to note here is that if you are building static binaries from your Mac to run on a \*nix machine or container you'll probably want to build it inside a container to force the correct version.
+Now `go build` will only compile the specific version of `cbytesFromStruct()` based on the target platform. One thing to note here is that if you are building static binaries from your Mac to run on a \*nix machine or container you'll probably want to build it inside a container to force the correct version.
 
 <!--more-->
