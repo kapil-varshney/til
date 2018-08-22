@@ -5718,3 +5718,7 @@ img[src$="#r"] {
 div.subtitle.tags{
   margin-bottom: 0px;
 }
+
+section .list {
+  margin-top: 30px;
+}
