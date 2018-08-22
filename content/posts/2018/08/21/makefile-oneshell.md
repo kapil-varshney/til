@@ -23,6 +23,7 @@ newfile:
 This works but is not super readable, fortunately `make` provides a phony target [`.ONESHELL`](https://www.gnu.org/software/make/manual/html_node/One-Shell.html) which basically lets you write a full script inline in the recipe. The full contents of the recipe are passed to a single shell to be executed so you might write
 
 ```Makefile
+.ONESHELL:
 newfile:
   @printf "Filename: "
   @read FILE
@@ -32,6 +33,7 @@ newfile:
 This would be almost correct except for the fact that the second `@` would be passed verbatim to your shell, therefore with `.ONESHELL` only the first character is checked to see if it is special. So your final recipe looks like
 
 ```Makefile
+.ONESHELL:
 newfile:
   @printf "Filename: "
   read FILE
