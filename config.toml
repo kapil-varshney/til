@@ -12,6 +12,7 @@ googleAnalytics = "UA-38494001-1"
   enableSocial = true
 
 [params.social]
+  archive = "/posts/"
   github = "zqureshi"
   linkedin = "zeeshanq"
   profile = "https://zqureshi.in"
