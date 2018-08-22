@@ -2,12 +2,18 @@
 
 Trying to jot down anything new that I encounter.
 
-## Setup
+### Setup
 
-`brew install hugo`
+```bash
+$ brew install hugo
+```
 
-## Usage
+### Usage
 
-`make my-awesome-post.md` to start a post
+```bash
+# start a post
+$ make my-awesome-post.md
 
-`make server` to run hugo locally
+# run hugo locally
+$ make server
+```
