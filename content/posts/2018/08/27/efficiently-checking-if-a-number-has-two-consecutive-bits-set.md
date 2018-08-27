@@ -16,7 +16,7 @@ The naive implementation was quite simple but got me thinking if there were bett
 ## 1. Right Shift and Counter
 
 This is the most straightforward approach where we check the least significant
-bit (LSB) and increment a counter if it is `1`. As soon as the counter hits `1`
+bit (LSB) and increment a counter if it is `1`. As soon as the counter hits `2`
 we exit or reset to `0` if the bit is not set.
 
 ```golang
