@@ -1,18 +1,18 @@
-baseURL = "https://til.zqureshi.in"
+baseURL = "https://til.kapilvarshney.com"
 languageCode = "en-us"
-title = "Zeeshan Qureshi"
+title = "Kapil Varshney"
 theme = "kiss"
 pygmentsStyle = "monokai"
 pygmentsCodefences = true
 enableRobotsTXT = true
-googleAnalytics = "UA-38494001-1"
+
 
 [params.info]
-  homeTitle = "Zeeshan Qureshi - Things I've Learned"
+  homeTitle = "Kapil Varshney - Things I've Learned"
   enableSocial = true
 
 [params.social]
   archive = "/posts/"
-  github = "zqureshi"
-  linkedin = "zeeshanq"
-  profile = "https://zqureshi.in"
+  github = "kapil-varshney"
+  linkedin = "kapilvarshney14"
+  profile = "https://medium.com/@kapilvarshney"
